@@ -73,6 +73,20 @@ python -m pip install -r requirements.txt
 python -m pip install --no-cache-dir --no-build-isolation flash-attn
 ```
 
+
+### Windows (Inference)
+For Windows users who only need inference, we provide a Windows-friendly dependency file:
+
+```bash
+conda create -n fakevlm python=3.10 -y
+conda activate fakevlm
+
+# install torch first (choose CUDA/CPU according to your machine)
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+python -m pip install -r requirements.windows.txt
+```
+
 ## 📦 Dataset
 The directory containing the images should have the following structure:
 
