@@ -21,3 +21,7 @@ not_useful_for_now
 *slurm*
 
 example_data/videos/ego4d/*.mp4
+
+# keep tutorial notebook
+!notebooks/
+!notebooks/fakevlm_probability_pipeline.ipynb
